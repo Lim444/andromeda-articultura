@@ -1,0 +1,49 @@
+{
+    "name": "andromeda-articultura",
+    "displayName": "Andromeda Articultura",
+    "description": "Dark theme for people exspensive taste.",
+    "version": "1.0.1",
+    "publisher": "lim444",
+    "icon": "icon.png",
+    "engines": {
+        "vscode": "^1.59.0"
+    },
+    "categories": [
+      "Themes"
+    ],
+    "keywords": [
+      "dark",
+      "theme",
+      "visual studio code",
+      "vscode"
+    ],
+    "contributes": {
+      "themes": [
+        {
+          "label": "Dark-Orange Theme",
+          "uiTheme": "vs-dark",
+          "path": "./themes/ANDROMEDA-ARTICULTURA-dark-orange.json"
+        },
+        {
+          "label": "Dark-Blue Theme",
+          "uiTheme": "vs-dark",
+          "path": "./themes/ANDROMEDA-ARTICULTURA-dark-blue.json"
+        }
+      ]
+    },
+    "author": {
+      "name": "Lim444",
+      "email": "salimakbar.id@gmail.com",
+      "website": "https://github.com/Lim444"
+    },
+    "features": [
+      {
+        "name": "Customizable",
+        "description": "${require('./src/features/features-id.json').find(feature => feature.name === 'Customizable').description}"
+      },
+      {
+        "name": "High Contrast",
+        "description": "${require('./src/features/features-id.json').find(feature => feature.name === 'High Contrast').description}"
+      }
+    ]
+}
